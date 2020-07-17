@@ -59,7 +59,7 @@ RoomsManager.prototype.getRandomRoomID = function getRandomRoomID () {
 	var roomID;
 
 	if (this._rooms.length === 0) {
-		roomID = this.addRoom('gsl');
+		roomID = this.addRoom('pokimane');
 	}
 	else {
 		roomID = Math.floor(Math.random() * this._rooms.length);
