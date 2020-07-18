@@ -171,7 +171,7 @@ Screen.prototype.setTwitchStream = function setTwitchStream(streamName) {
 	this.screenEl
 		// .setAttribute('src', `https://www.youtube.com/embed/5AUdYd1scrM?autoplay=1`)
 		//.setAttribute('src', `http://player.twitch.tv/?channel=${streamName}`)
-		.setAttribute('src', `https://player.twitch.tv/?channel=${streamName}&parent=oumanouma.herokuapp.com`)
+		.setAttribute('src', `https://player.twitch.tv/?channel=${streamName}&parent=hero-vr.herokuapp.com`)
 		.setAttribute('muted');
 
 	this.headerEl
