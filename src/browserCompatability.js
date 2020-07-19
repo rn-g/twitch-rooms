@@ -4,7 +4,7 @@ export default function testBrowseryCompatability() {
 	var isFirefox = typeof InstallTrigger !== 'undefined';
 
 	if (!isChrome && !isFirefox) {
-		alert('You are using a browser that is not Chrome or Firefox! Until I fix the cross-browser issues, please use either of these browsers for Twitch Roooms.')
+		alert('You are using a browser that is not Chrome or Firefox! Please use either of these browsers for HeroVR.')
 	}
 
 	window.havePointerLock = 'pointerLockElement' in document ||
